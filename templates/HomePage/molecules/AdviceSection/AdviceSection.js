@@ -283,8 +283,14 @@ export const AdviceSection = () => {
         backgroundSize="cover"
       >
         <Grid gridTemplateColumns="repeat(2,1fr)" height="100%">
-          <Flex pl="101px" flexDirection="column" textAlign="left" justifyContent="center" height="100%">
-            <Box >
+          <Flex
+            pl="101px"
+            flexDirection="column"
+            textAlign="left"
+            justifyContent="center"
+            height="100%"
+          >
+            <Box>
               <Text
                 color="white"
                 fontFamily="Teko"
@@ -315,7 +321,123 @@ export const AdviceSection = () => {
               Subscribe to 100X.VC News and Views
             </Text>
           </Flex>
+          <Flex flexDirection="column" textAlign="left" justifyContent="center" height="100%">
+            hi
+          </Flex>
         </Grid>
+      </Box>
+      <Box height="235.92px" background="black">
+        <Grid gridTemplateColumns="2fr 1fr 1fr" width="100%" height="50%">
+          <Box pl="100px" height="100%"pt="50px">
+            <Flex flexDirection="column" height="100%" justifyContent="center">
+              <Box>
+                <Image src="/images/logo.png" width="96.01px" height="32.47px" />
+              </Box>
+              <Box pt="10px">
+                <Text
+                  color="white"
+                  fontSize="22px"
+                  fontWeight="400"
+                  lineHeight="30px"
+                  fontFamily="Lato"
+                >
+                  We are a lorem ipsumdolor sit amet consectetur
+                </Text>
+                <Text
+                  color="white"
+                  fontSize="22px"
+                  fontWeight="400"
+                  lineHeight="30px"
+                  fontFamily="Lato"
+                >
+                  consectetur adipiscing elit, sed do eiuscing
+                </Text>
+                <Text
+                  color="white"
+                  fontSize="22px"
+                  fontWeight="400"
+                  lineHeight="30px"
+                  fontFamily="Lato"
+                >
+                  tempor incididun
+                </Text>
+              </Box>
+            </Flex>
+          </Box>
+          <Box>
+            <Grid gridTemplateColumns="2fr 8fr" width="100%" pt="107.09px">
+              <Image src="/images/icon.png" height="56px" width="56px" position="absolute" />
+              <Box>
+                <Text
+                  color="white"
+                  fontFamily="Lato"
+                  fontSize="16px"
+                  fontWeight="400"
+                  lineHeight="19.2px"
+                >
+                  Send you pitches to us at
+                </Text>
+                <Text
+                  color="white"
+                  fontFamily="Lato"
+                  fontWeight="500"
+                  fontSize="22px"
+                  lineHeight="19.2px"
+                  pt="5px"
+                >
+                  pitch@100x.vc
+                </Text>
+              </Box>
+            </Grid>
+          </Box>
+          <Box>
+            <Grid gridTemplateColumns="2fr 8fr" width="100%" pt="107.09px">
+              <Image src="/images/icon.png" height="56px" width="56px" position="absolute" />
+              <Box>
+                <Text
+                  color="white"
+                  fontFamily="Lato"
+                  fontSize="16px"
+                  fontWeight="400"
+                  lineHeight="19.2px"
+                >
+                  For other queries , please contact us at:
+                </Text>
+                <Text
+                  color="white"
+                  fontFamily="Lato"
+                  fontWeight="500"
+                  fontSize="22px"
+                  lineHeight="19.2px"
+                  pt="5px"
+                >
+                  hello@100x.vc
+                </Text>
+              </Box>
+            </Grid>
+          </Box>
+        </Grid>
+      </Box>
+      <Box height="235.92px" background="black">
+        <Grid gridTemplateColumns="1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr " width="100%" pl="100px" pr="100px" pt="40px">
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">About us</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Jobs</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Blog</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Press</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">FAQ</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Careers</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Contact</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Privacy policy</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Sitemap</Text>
+          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Terms of Use</Text>
+        </Grid>
+        <Flex  pl="100px" pr="100px" pt="40px" justifyContent="space-between">
+        <Grid gridTemplateColumns="1fr 1fr 1fr 1fr" gridColumnGap="8px" width="50%" height="100%">
+        <Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box><Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box><Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box><Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box>
+        </Grid>
+        <Text color="white" pt="30px">2000-2021,All Rights Reserved</Text>
+        </Flex>
+        
       </Box>
     </>
   );
