@@ -328,7 +328,7 @@ export const AdviceSection = () => {
       </Box>
       <Box height="235.92px" background="black">
         <Grid gridTemplateColumns="2fr 1fr 1fr" width="100%" height="50%">
-          <Box pl="100px" height="100%"pt="50px">
+          <Box pl="100px" height="100%" pt="50px">
             <Flex flexDirection="column" height="100%" justifyContent="center">
               <Box>
                 <Image src="/images/logo.png" width="96.01px" height="32.47px" />
@@ -419,25 +419,123 @@ export const AdviceSection = () => {
         </Grid>
       </Box>
       <Box height="235.92px" background="black">
-        <Grid gridTemplateColumns="1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr " width="100%" pl="100px" pr="100px" pt="40px">
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">About us</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Jobs</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Blog</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Press</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">FAQ</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Careers</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Contact</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Privacy policy</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Sitemap</Text>
-          <Text color="white" fontSize="22px" fontWeight="400" lineHeight="26.4px" fontFamily="Lato">Terms of Use</Text>
+        <Grid
+          gridTemplateColumns="1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr "
+          width="100%"
+          pl="100px"
+          pr="100px"
+          pt="40px"
+        >
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            About us
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Jobs
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Blog
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Press
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            FAQ
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Careers
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Contact
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Privacy policy
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Sitemap
+          </Text>
+          <Text
+            color="white"
+            fontSize="22px"
+            fontWeight="400"
+            lineHeight="26.4px"
+            fontFamily="Lato"
+          >
+            Terms of Use
+          </Text>
         </Grid>
-        <Flex  pl="100px" pr="100px" pt="40px" justifyContent="space-between">
-        <Grid gridTemplateColumns="1fr 1fr 1fr 1fr" gridColumnGap="8px" width="50%" height="100%">
-        <Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box><Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box><Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box><Box height="55px" width="55px"><Image src="/images/icon1.png" height="55px" width="55px" /></Box>
-        </Grid>
-        <Text color="white" pt="30px">2000-2021,All Rights Reserved</Text>
+        <Flex pl="100px" pr="100px" pt="40px" justifyContent="space-between">
+          <Grid gridTemplateColumns="1fr 1fr 1fr 1fr" gridColumnGap="8px" width="50%" height="100%">
+            <Box height="55px" width="55px">
+              <Image src="/images/icon1.png" height="55px" width="55px" />
+            </Box>
+            <Box height="55px" width="55px">
+              <Image src="/images/icon1.png" height="55px" width="55px" />
+            </Box>
+            <Box height="55px" width="55px">
+              <Image src="/images/icon1.png" height="55px" width="55px" />
+            </Box>
+            <Box height="55px" width="55px">
+              <Image src="/images/icon1.png" height="55px" width="55px" />
+            </Box>
+          </Grid>
+          <Text color="white" pt="30px">
+            2000-2021,All Rights Reserved
+          </Text>
         </Flex>
-        
       </Box>
     </>
   );
