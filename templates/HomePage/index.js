@@ -6,7 +6,7 @@ export const HomePage = () => {
     <>
       <HomeHero />
       <OurTeams />
-      <AdviceSection />
+      {/* <AdviceSection /> */}
     </>
   );
 };

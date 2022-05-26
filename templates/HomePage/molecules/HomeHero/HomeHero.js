@@ -6,96 +6,43 @@ import Image from "next/image";
 export const HomeHero = () => {
   return (
     <>
-      <Grid height="791.96px" width="100vw" background="black" >
+      <Grid height="79.19rem" background="black">
         <Box
           position="absolute"
-          backgroundImage="url('/images/back.png')"
-          backgroundSize= "cover"
+          backgroundImage={{
+            lg: "url('/images/backg.png')",
+            xs: "url('/images/backgg.png')",
+          }}
+          backgroundSize="cover"
           style={{ backgroundRepeat: "no-repeat" }}
           height="100%"
-          width="100%"
+          width="100vw"
         >
-          <Flex 
+          <Flex
             alignItems="center"
             justifyContent="center"
             flexDirection="column"
             height="100%"
-              width="100%"
+            width="100%"
           >
-            <Box
-              height="50%"
-              width="392.04"
-              pt={208}
-            >
-                <Image src="/images/home-logo.svg" alt="logo" height="187.29" width="392.04" />
+            <Box width={{ xs: "23.6rem", lg: "55.9rem" }} height={{ xs: "8rem", lg: "18.9rem" }}>
+              <Image src="/images/home-logo.svg" alt="logo" layout="fill" />
             </Box>
-            <Box height="50%">
+            <Box>
               <Text
-                pt="4.8rem"
-                as="h2"
-                my="0rem"
-                fontWeight="800"
-                fontSize={{ xs: "3.8rem", md: "4.8rem" }}
-                lineHeight={{ xs: "4.5rem", md: "5.7rem" }}
+                fontFamily="Teko"
+                fontSize={{ xs: "4rem", lg: "4.8rem" }}
+                fontWeight="bold"
                 color="white"
-                maxWidth={{ xs: "32.3rem", md: "100.8rem" }}
                 textAlign="center"
+                maxwidth={{ xs: "31.6rem", lg: "68.7rem" }}
+                pt="5rem"
               >
                 Funding Simplified.Mentoring Unlimited.
               </Text>
             </Box>
           </Flex>
-        </Box>
-        {/* <Flex
-          px={{ xs: "2.4rem", lg: "21rem" }}
-          mt={{ xs: "-50rem", lg: "-50rem" }}
-          alignItems="center"
-          flexDirection="row"
-          justifyContent="center"
-
-        >
-          <Box
-            background="red"
-            backgroundImage="url('/images/backTexture.svg')"
-            height="296.58"
-            width="397.76"
-          >
-            <Flex
-              flexDirection="column"
-            >
-              <Text fontSize={48}>Moonshot</Text>
-              <Text fontSize={22}>We invest in your moonshot vision</Text>
-            </Flex>
-          </Box>
-        
-          <Box
-            background="red"
-            backgroundImage="url('/images/backTexture.svg')"
-            height="296.58"
-            width="397.76"
-          >
-            <Flex
-              flexDirection="column"
-            >
-              <Text fontSize={48}>Moonshot</Text>
-              <Text fontSize={22}>We invest in your moonshot vision</Text>
-            </Flex>
-          </Box>
-          <Box
-            background="red"
-            backgroundImage="url('/images/backTexture.svg')"
-            height="296.58"
-            width="397.76"
-          >
-            <Flex
-              flexDirection="column"
-
-            >
-              <Text fontSize={48}>Moonshot</Text>
-              <Text fontSize={22}>We invest in your moonshot vision</Text>
-            </Flex>
-          </Box>
-        </Flex> */}
+        </Box>  
       </Grid>
     </>
   );
